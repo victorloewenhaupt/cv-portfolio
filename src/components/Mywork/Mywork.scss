@@ -53,6 +53,12 @@
 
 @media (max-width: 768px) {
   .mywork {
+    .mywork-title {
+      h1 {
+        padding: 0;
+        font-size: 40px;
+      }
+    }
     .mywork-container {
       grid-template-columns: 1fr 1fr;
       gap: 20px;
